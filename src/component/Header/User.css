@@ -1,0 +1,143 @@
+
+.user-record {
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  width: 100vw;
+  background-color: var(--dark);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--text-grey);
+}
+.icon-container:last-child {
+  border: 0;
+}
+.userATag {
+  position: fixed;
+  display: block;
+  bottom: 0;
+  height: 60px;
+  width: 50vw;
+}
+.icon-img-container {
+  position: relative;
+  width: 44px;
+  height: 44px;
+}
+.cart-icon-desktop {
+  display: none;  
+}
+.cart-icon-mobile {
+  width: 44px;
+  height: 44px;
+}
+.cart-count {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
+  background-color: var(--brown);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart-count-num {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+.icon-cart-text {
+  width: 48px;
+  font-size: 16px;
+  color: var(--white);
+}
+.member-icon-desktop {
+  display: none;
+}
+.member-icon-mobile {
+  width: 44px;
+  height: 44px;
+}
+.icon-member-text {
+  width: 32px;
+  font-size: 16px;
+  color: var(--white);
+}
+
+
+@media only screen and (min-width: 1280px){
+
+  .user-record {
+    position: absolute;
+    top: 28px;
+    right: 54px;
+    height: 44px;
+    width: 130px;
+    background-color: rgba(0,0,0,0);
+  
+    justify-content: space-between;
+  }
+  .icon-container {
+    height: 0px;
+    width: 44px;
+    border-right: none;
+  }
+  .icon-container:hover{
+    cursor: pointer;
+  }
+  .icon-init {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--white);
+  }
+  .icon-init:hover {
+    display: none;
+  }
+  .icon-hover{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+  }
+  .cart-icon-mobile {
+    display: none
+  }
+  .cart-icon-desktop {
+    display: block;
+    width: 44px;
+    height: 44px;
+  }
+  .icon-cart-text {
+    display: none;
+  }
+  .cart-count {
+    z-index: 2;
+  }
+  .member-icon-mobile {
+    display: none;
+  }
+  .member-icon-desktop {
+    display: block;
+  }
+  .icon-member-text {
+    display: none;
+  }
+  .userATag {
+    position: absolute;
+    display: block;
+    height: 44px;
+    width: 44px;
+  }
+  
+
+}

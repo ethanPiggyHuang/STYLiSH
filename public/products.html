@@ -1,0 +1,91 @@
+<!DOCTYPE html>                                                                
+<html>                        
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STYILiSH w2p4</title>
+    <link rel="stylesheet" href="./src/normalize.css">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8NS9K6QQ3K"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-8NS9K6QQ3K');
+    </script>
+  </head>
+
+  <body> 
+    <header>
+      <div class="logo-container">
+        <img src="./img/logo.png" alt="logo STYILiSH" class="logo">
+      </div>
+      <div class="dividing-line"></div>
+      <ul class="menu">
+        <li class="menu-border"></li>
+        <li class="menu-border"></li>
+        <li class="menu-border"></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu-item-list"><a class="women menu-item">女裝</a></li>
+        <li class="menu-item-list"><a class="men menu-item">男裝</a></li>
+        <li class="menu-item-list"><a class="accessories menu-item">配件</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="" class="search-input">
+      </div>
+      <img src="./img/search.png" alt="search-icon" class="search-icon">
+      <div class="user-record">
+          <div class="icon-container">
+            <a class="icon-img-container" href="./checkout">
+              <img src="./img/cart.png" alt="cart-icon" class="cart-icon-desktop icon-init">
+              <img src="./img/cart-hover.png" alt="cart-icon" class="cart-icon-desktop icon-hover">
+              <img src="./img/cart-mobile.png" alt="cart-icon" class="cart-icon-mobile">
+              <div class="get-cart-count"></div>
+            </a>
+            <p class="icon-cart-text">購物車</p>
+            <a class="userATag" href="./checkout"></a>
+          </div>
+          <div class="icon-container">
+            <div class="icon-img-container">
+              <img src="./img/member.png" alt="member-icon" class="member-icon-desktop icon-init">
+              <img src="./img/member-hover.png" alt="member-icon" class="member-icon-desktop icon-hover">
+              <img src="./img/member-mobile.png" alt="member-icon" class="member-icon-mobile">
+            </div>
+            <p class="icon-member-text">會員</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="sectioin-carousel">
+      <div class="carousel-switch-all">
+      </div>
+    </section>
+    <section class="sectioin-products">
+      <div class="product-array">
+      </div>
+    </section>
+    <footer>
+      <ul class="menu-pages">
+        <li class="menu-page menu-page-fisrt-collumn">關於 STYLiSH</li>
+        <li class="menu-page menu-page-fisrt-collumn">服務條款</li>
+        <li class="menu-page menu-page-fisrt-collumn">隱私政策</li>
+        <li class="menu-page menu-page-second-collumn">聯絡我們</li>
+        <li class="menu-page menu-page-second-collumn">FAQ</li>
+      </ul>
+      <div class="other-sites">
+        <img src="./img/line.png" alt="line" class="other-site">
+        <img src="./img/twitter.png" alt="twitter" class="other-site">
+        <img src="./img/facebook.png" alt="facebook" class="other-site">
+      </div>
+      <p class="copyright">&copy;2018. All rights reserved.</p> 
+    </footer>
+    <script src="./src/index.js"></script>
+    <script src="./src/carousel.js"></script>
+  </body> 
+</html>

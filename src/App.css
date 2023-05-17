@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000000;
+  --dark: #313538;
+  --brown: #8B572A;
+  --white: #FFFFFF;
+  --text-dark: #3F3A3A;
+  --text-light: #F5F5F5;
+  --text-grey: #828282;
+  --text-lightgrey: #D3D3D3;
+  --text-wrong: #4a1111;
+  --item-color-1: #FFFFFF;
+  --item-color-2: #DDFFBB;
+  --item-color-3: #CCCCCC;
+}
+
+html{
+  font-size: 1em;
+}
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+a:link, a:visited, a:link:active, a:visited:active {
+  text-decoration: none;
+}

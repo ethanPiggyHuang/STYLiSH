@@ -1,0 +1,38 @@
+.media-sites {
+  width: 88px;
+  padding-bottom: 2px;
+
+  padding-inline-start: 0px;
+
+  display: flex;
+  justify-content: space-between;
+}
+.media-site {
+  width: 20px; 
+  height: 20px;
+
+  list-style: none;
+  text-align: center;
+}
+
+@media only screen and (min-width: 1280px){
+
+  .media-sites {
+    display: flex;
+    padding-inline-start: 0px;
+    width: 210px;
+    justify-content: space-between;
+    margin-left: 101px;
+  
+    padding: 0;
+  }
+  .media-site {
+  
+    width: 50px; 
+    height: 50px;
+  
+    font-size: 16px;
+    color: var(--text-light);
+  }
+
+}
